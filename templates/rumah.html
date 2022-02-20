@@ -1,0 +1,416 @@
+<html>
+
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  
+
+
+    <title>Hello, world!</title>
+  </head><!-- Navbar -->
+  <body id="page-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top id="MainNav">
+  <div class="container">
+  <button class="navbar-toggler navbar-toggler right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand" href="#">Bolanesia</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link js-scroll-trigger" href="#carouselExampleIndicators">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="index.html">Berita Olahraga</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="">Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="contact.html">Hubungi Kami</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lain-lain
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="login.html">login</a>
+          <a class="dropdown-item" href="daftar.html ">daftar</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </div>
+</nav>
+<!--tutup-->
+<br><br><br>
+<!--slide-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ url_for('static', filename='css/images/img1.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+  <h1 class="display-4">Selamat Datang<br> Ayo Cek Diabetesmu <br> <span class="font-weight-bold">Di SiPede</h1>
+  <hr class="my-4">
+  <a class="btn btn-primary btn-lg" href="index.html" role="button">MULAI</a>
+</div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for('static', filename='css/images/img1.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for('static', filename='css/images/img1.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!--tutup-->
+
+<!--welcome-->
+<div class="jumbotron warna-bg">
+  <h1 class="display-4">Selamat Datang,</h1>
+  <p class="lead"><b>Bolanesia</b> adalah situs web berita yang menyajikan seputar berita olahraga nasional ataupun macam negara terlengkap mulai dari sepakbola, basket dan lain lain terdapat juga jadwal sepak bola, hasil pertandingan bola. </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Selengkapnya..</a>
+</div>
+<!--tutup-->
+
+<!--logo olahraga-->
+
+<div class="container judullogo">
+  <h3 class="text-center"><strong>Liga Top Eropa</strong></h3>
+  <div class="row">
+    <div class="col-md-3 col-sm-8 col-xs-8 logo1">
+      <img src="img/logo1.png" width="250px">
+      <a class="btn btn-primary btn-lg" href="home.html" role="button">KLIK</a>
+    </div>
+    <div class="col-md-3 col-sm-8 col-xs-8 logo2">
+      <img src="img/logo1.png" width="250px">
+      <a class="btn btn-primary btn-lg" href="home.html" role="button">KLIK</a>
+    </div>
+    <div class="col-md-3 col-sm-8 col-xs-8 logo3">
+      <img src="img/logo1.png" width="250px">
+      <a class="btn btn-primary btn-lg" href="home.html" role="button">KLIK</a>
+    </div>
+    <div class="col-md-3 logo4">
+      <img src="img/logo1.png" width="250px">
+      <a class="btn btn-primary btn-lg" href="home.html" role="button">KLIK</a>
+    </div>
+
+  </div>
+  </div>
+  <br><br>
+
+
+
+
+
+
+
+<!--beritautama-->
+<div class="container berita">
+    <div class="row">
+      <div class="col-md-7">
+         <h2 class="text-center "><strong>BERITA TERKINI</strong></h2>
+         <br>
+        <h3>Manchester City Jalani Sidang Gugatan Larangan Tampil di Turnamen Eropa pada 8 Juni</h3>
+        <img class="mcity" src="img/beritautama).jpg">
+        <p class="text-justify">Manchester - Manchester City dijadwalkan bakal menjalani sidang gugatan sanksi larangan tampil di kompetisi Eropa. Sidang berlangsung di Pengadilan Arbitrase Olahraga (CAS) di Swiss, Senin (8/6/2020).Persidangan bakal berjalan selama tiga hari dan diisi dengan agenda mendengar kesaksian dari Manchester City, terkait sanksi yang dijatuhkan UEFA pada Februari lalu Sanksi itu berdasarkan dugaan pelanggaran aturan Kepatutan Finansial (FFP) oleh Manchester City. The Citizens dinilai bersikap non-kooperatif selama proses penyelidikan. Selain dijatuhi sanksi larangan tampil di Eropa dua tahun, Manchester City juga dikenai denda senilai 30 juta euro (Rp 471 miliar). Penyelidikan UEFA sudah dimulai sejak Maret 2019.Hal itu menyusul bocornya dokumen internal Manchester City, yang diungkap oleh laman Football Leaks berisi dugaan praktik penggelembungan kesepakatan sponsor oleh pemilik klub. Dokumen itu memuat informasi bahwa pembiayaan kebutuhan klub "disalurkan" melalui sponsor, sedangkan investigasi Reuters tak mendapati bahwa pembayaran dari sponsor pernah terjadi.</p>
+     </div>
+
+     <div class="col-md-5">
+      <h2 class="text-center">Klasmen Premier League</h2>
+      <table class="table table-bordered table-dark">
+
+  <thead>
+    <tr>
+      <th scope="col">Posisi</th>
+      <th scope="col">Tim</th>
+      <th scope="col">Main</th>
+      <th scope="col">Menang</th>
+      <th scope="col">Kalah</th>
+      <th scope="col">Point</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>32</td>
+      <td>28</td>
+      <td>2</td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Man City</td>
+      <td>32</td>
+      <td>21</td>
+      <td>66</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <th scope="row">1</th>
+      <td>Liverpool</td>
+      <td>29</td>
+      <td>27</td>
+      <td>82</td>
+    </tr>
+     <tr>
+      <tr class="bg-danger">
+      <th scope="row">18</th>
+      <td>aston villa</td>
+      <td>29</td>
+      <td>7</td>
+      <td>27</td>
+    </tr>
+     <tr>
+      <tr class="bg-danger">
+      <th scope="row">19</th>
+      <td>bornemounth</td>
+      <td>7</td>
+      <td>27</td>
+      <td>25</td>
+    </tr>
+     <tr>
+      <tr class="bg-danger">
+      <th scope="row">20</th>
+      <td>norwichl</td>
+      <td>5</td>
+      <td>27</td>
+      <td>21</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+</div>
+
+
+<!--tutup-->
+
+<!-- beritakedua-->
+<div id="news1">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
+          <h4 class="judul1">Steven Gerrard Sarankan Liverpool Bangun Patung Jurgen Klopp</h4></br>
+          <img class="gerrad" src="img/Steven-Gerrard.jpg">
+          <div class="caption">
+          </div>
+                       </br><p class="text-justify">Sportnesia.com, Liverpool - Legenda Liverpool, Steven Gerrard, menyarankan The Reds semestinya membangun patung Jurgen Klopp di luar Anfield. Menurut Gerrard, pembangunan patung itu menjadi bentuk apresiasi jika Klopp berhasil membawa Liverpool menjuarai Premier League...</p>
+           <div class="button">
+          <a href="home.html">
+          Baca Selengkapnya...</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-3 col-sm-8 col-xs-8">
+          <h4 class="judul1">Steven Gerrard Sarankan Liverpool Bangun Patung Jurgen Klopp</h4></br>
+          <img class="gerrad" src="img/Steven-Gerrard.jpg">
+          <div class="caption">
+          </div>
+                       </br><p class="text-justify">Sportnesia.com, Liverpool - Legenda Liverpool, Steven Gerrard, menyarankan The Reds semestinya membangun patung Jurgen Klopp di luar Anfield. Menurut Gerrard, pembangunan patung itu menjadi bentuk apresiasi jika Klopp berhasil membawa Liverpool menjuarai Premier League...</p>
+           <div class="button">
+          <a href="home.html">
+          Baca Selengkapnya...</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-3 col-sm-8 col-xs-8">
+          <h4>Steven Gerrard Sarankan Liverpool Bangun Patung Jurgen Klopp</h4></br>
+          <img class="gerrad" src="img/Steven-Gerrard.jpg">
+          <div class="caption">
+          </div>
+                       </br><p class="text-justify">Sportnesia.com, Liverpool - Legenda Liverpool, Steven Gerrard, menyarankan The Reds semestinya membangun patung Jurgen Klopp di luar Anfield. Menurut Gerrard, pembangunan patung itu menjadi bentuk apresiasi jika Klopp berhasil membawa Liverpool menjuarai Premier League...</p>
+           <div class="button">
+          <a href="home.html">
+          Baca Selengkapnya...</a>
+         </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--tutup-->
+
+<!--footer-->
+<footer>
+<div class="footer-container">
+  <div class="left-col">
+    <img src="img/logo3.png" alt="" class="logo" width="200px">
+    <div class="social-media">
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+       <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-twitter-square"></i></a>
+         <a href="https://www.youtube.com/index"><i class="fa fa-youtube-play"></i></a>
+       </div>
+       <p class="right-text">2020 Created By kelompok 5 All Right Reserved</p>
+     </div>
+
+     <div class="right-col">
+      <h1>Our Newsletter</h1>
+      <div class="border"></div>
+      <p>Masukan email anda untuk dapat berita dan update.</p>
+      <form action="" class="newsletter-form"></form>
+      <input type="text" class="txtb" placeholder="masukan email anda">
+      <input type="submit" class="btn" value="submit">
+    </form>
+  </div>
+</div>
+</footer>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
+

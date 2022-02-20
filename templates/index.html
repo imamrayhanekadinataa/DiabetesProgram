@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Deteksi Diabetes</title>
+{% endblock %}
+
+{% block body %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/home">Sipede</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/informasi">Informasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index">Prediksi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Tentang Saya</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Form Prediksi Diabetes</h2>
+        </div>
+        
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form" action="/" method="POST">
+            <span class="contact100-form-title">
+                SiPede
+            </span>
+
+            <div class="form-group">
+                <span class="label-input100">Kehamilan</span>
+                <input type="number" min="0" max="1000" step="1" class="form-control"  placeholder="Masukan jumlah Kehamilan" name="kehamilan" id="kehamilan" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group" >
+                <span class="label-input100">Glukosa</span>
+                <input type="number" min="0" max="1000" step="1" class="form-control"  placeholder="Masukan kadar glukosa" name="glukosa" id="glukosa" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group" >
+                <span class="label-input100">Tekanan Darah</span>
+                <input type="number" min="0" max="1000" step="1" class="form-control"  placeholder="Masukan tekanan darah" name="darah" id="darah" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group" >
+                <span class="label-input100">Lemak Tubuh</span>
+                <input type="number" min="0" max="1000" step="1" class="form-control"  placeholder="Masukan lemak tubuh" name="kulit" id="Kulit" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group" >
+                <span class="label-input100">Insulin</span>
+                <input type="number" min="0" max="1000" step="1" class="form-control"  placeholder="Masukkan Kadar Insulin" name="insulin" id="insulin" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group" >
+                <span class="label-input100">BMI</span>
+                <input type="number" min="0" max="1000" step="0.1" class="form-control" placeholder="Masukan BMI" name="bmi" id="bmi" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group" >
+                <span class="label-input100">Riwayat Diabetes</span>
+                <input type="number" min="0" max="1000" step="0.001" class="form-control" placeholder="Riwayat Diabetes Keluarga" name="riwayat" id="riwayat" required>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="form-group">
+                <span class="label-input100">Umur</span>
+                <input type="number" min="0" max="100" step="1" class="form-control" placeholder="Masukan umur" name="umur" id="umur" required>
+                <span class="focus-input100"></span>
+            </div>
+            
+            <div class="container-contact100-form-btn">
+                <div class="wrap-contact100-form-btn">
+                    <div class="contact100-form-bgbtn"></div>
+                    <button class="contact100-form-btn">
+                        <span>
+                            Prediksi
+                            <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div class="container-fluid bg-dark text-white mt-5" style="padding: 20px 0;">
+  <div class="container">
+    <small>&copy; 2021. Sipede (Sistem Prediksi Penyakit Diabetes). Arvi Pramudyantoro</small>
+  </div>
+</div>
+{% endblock %}
