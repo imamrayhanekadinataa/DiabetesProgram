@@ -46,23 +46,23 @@
 }
 
 .button-pink {
-	background-color: #D71149 !important;
-	border: 1px solid #D71149 !important;
+	background-color: #11d732 !important;
+	border: 1px solid #11d76a !important;
 }
 
 .button-pink:hover {
-	background-color: rgb(179, 11, 58) !important;
-	border: 1px solid rgb(179, 11, 58) !important;
+	background-color: rgb(11, 179, 47) !important;
+	border: 1px solid rgb(11, 179, 39) !important;
 }
 
 .button-outline-pink {
-	border: 1px solid #D71149 !important;
+	border: 1px solid #18d711 !important;
 	background-color: rgba(0, 0, 0, 0) !important;
-	color: #D71149 !important;
+	color: #11d73c !important;
 }
 
 .button-outline-pink:hover {
-	background-color: #D71149 !important;
+	background-color: #11d73c !important;
 	color: #ededed !important;
 }
 
@@ -111,8 +111,8 @@ a.list-group-item-action:hover {
 
 a.list-group-item-action.active {
 	color: #fff;
-	background-color: #D71149 !important;
-	border: 1px solid #D71149 !important;
+	background-color: #11d732 !important;
+	border: 1px solid #11d73c !important;
 }
 
 /* MAPS */
@@ -224,5 +224,5 @@ footer.footer {
 	width: 80px;
 	height: 80px;
 	color: white;
-	background-color: #D71149;
+	background-color: #11d75d;
 }
