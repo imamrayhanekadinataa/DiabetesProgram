@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Deteksi Diabetes</title>
+{% endblock %}
+
+{% block body %}
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form" action="/" method="GET">
+            {% if finalData == 1 %}
+            <span class="contact100-form-title">
+                POSITIF DIABETES
+            </span>
+            <div class="alert alert-danger">
+                <h1>{{ prediction_text }}</h1>
+                <p>Segera periksa dan konsultasikan ke dokter!</p>
+                <p>Akurasi Keakuratan Prediksi 84%!</p>
+            </div>
+
+            {% else %}
+            <span class="contact100-form-title">
+                NEGATIF DIABETES
+            </span>
+            <div class="alert alert-success">
+                <h1>{{ prediction_text }}</h1>
+			<p>Tetaplah waspada dan jaga kesehatan Anda!</p>
+            <p>Akurasi Keakuratan Prediksi 84%!</p>
+            </div>
+
+            {% endif %}
+
+            <div class="container-contact100-form-btn">
+                <div class="wrap-contact100-form-btn">
+                    <div class="contact100-form-bgbtn"></div>
+                    <button class="contact100-form-btn">
+                        <span>
+                            Selesai
+                        </span>
+                    </button>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+{% endblock %}
